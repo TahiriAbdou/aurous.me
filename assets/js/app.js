@@ -1,10 +1,4 @@
 function disableForm() {
-    var form = document.forms['subscribeform'];
-    var elements = form.elements;
-    for (var i = 0, len = elements.length; i < len; ++i) {
-        elements[i].disabled = true;
-
-    }
     var form = document.forms['subscribeform2'];
     var elements = form.elements;
     for (var i = 0, len = elements.length; i < len; ++i) {
@@ -14,12 +8,6 @@ function disableForm() {
 }
 
 function enableForm() {
-    var form = document.forms['subscribeform'];
-    var elements = form.elements;
-    for (var i = 0, len = elements.length; i < len; ++i) {
-        elements[i].disabled = false;
-
-    }
     var form = document.forms['subscribeform2'];
     var elements = form.elements;
     for (var i = 0, len = elements.length; i < len; ++i) {
