@@ -12,6 +12,16 @@ body {
     margin: auto;
 }
 
+.navbar {
+    .navbar-toggle {
+        margin-top: 16px;
+    }
+    
+    .navbar-brand {
+        min-height: 64px;
+    }
+}
+
 .navbar-inverse {
     background-color: transparent;
 
@@ -104,7 +114,10 @@ body {
 
 .download {
     text-align: center;
-    padding: 45px;
+    padding: 45px 15px;
+    &.top {
+        border: 1px solid rgba(white, 0.1);
+    }
     &.bottom {
         border-top: 1px solid rgba(white, 0.1);
     }
@@ -132,6 +145,7 @@ body {
         @media screen and (max-width: 786px) {
             width: 100%;
             margin-bottom: 15px;
+            margin-left: 0px;
         }
     }
     p.lead {
