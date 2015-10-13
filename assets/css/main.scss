@@ -62,8 +62,6 @@ body {
     }
 }
 
-
-
 .btn-primary {
     background-color: rgba(139, 96, 232, 0.5);
     border-color: rgba(139, 96, 232, 0.5);
@@ -115,9 +113,11 @@ body {
 .download {
     text-align: center;
     padding: 45px 15px;
+
     &.top {
         border: 1px solid rgba(white, 0.1);
     }
+
     &.bottom {
         border-top: 1px solid rgba(white, 0.1);
     }
@@ -125,18 +125,22 @@ body {
         text-align: left;
         padding: 6px 20px 8px 20px;
         margin-left: 15px;
+
         p {
             font-size: 16px;
             font-weight: 700;
             margin: 0;
             margin-bottom: -4px;
         }
+
         small {
             opacity: 0.75;
         }
+
         .pull-left {
             margin-right: 20px;
         } 
+
         i.fa {
             font-size: 22px;
             margin-top: 8px;
@@ -206,18 +210,9 @@ body {
     color: white;
 }
 
-#alertSuccess {
-    display: none;
-}
-
-#alertError {
-    display: none;
-}
-
-#alertSuccess2 {
-    display: none;
-}
-
+#alertSuccess, 
+#alertError, 
+#alertSuccess2, 
 #alertError2 {
     display: none;
 }
@@ -273,8 +268,7 @@ section {
     h3 {
         font-size: 18px;
         font-weight: 700;
-        margin-bottom: 10px;
-        margin-top: 40px;
+        margin: 40px 0 10px 0;
     }
 
     .section-image-1 {
